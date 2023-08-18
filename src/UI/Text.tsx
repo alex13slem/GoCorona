@@ -1,0 +1,11 @@
+import {styled} from 'styled-components';
+
+export const TextUI = styled.p`
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 138.5%;
+  letter-spacing: 0.08em;
+  color: #616161;
+  margin-bottom: 24px;
+`;
