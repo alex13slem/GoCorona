@@ -4,10 +4,6 @@ interface TitleUIProps {
   $marker?: 'red' | 'blue';
 }
 
-const defaultProps: TitleUIProps = {
-  $marker: 'red',
-};
-
 export const TitleUI = styled.h2<TitleUIProps>`
   font-family: 'Rubik';
   font-weight: 700;
